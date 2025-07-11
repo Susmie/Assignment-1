@@ -36,12 +36,23 @@
     font-weight: bold;
     color: #4E47FF
 }
+
+.text{
+    list-style: none;
+}
 .content{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.text{
-    list-style: none;
+.action{
+    display: flex;
+    background-image: url('../Assets/wc-mini.png');
+    background-size: fill;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 120px;
+    height: 100%;
+    border: none;
 }
