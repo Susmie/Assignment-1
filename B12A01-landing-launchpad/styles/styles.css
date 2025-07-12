@@ -1,12 +1,74 @@
 
-
-.normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    "wdth" 100;
+body {
+  margin: 100px;
 }
-/* share style */
+
+
+
+
+
+/* shared styles*/
+.secondary-bg{
+background-color: rgba(228, 235, 238, 0.74);
+background-position-x: 1200px;
+background-position-y: 700px;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+    
+}
+.nav-title{
+  color: #4E47FF;
+  display: flex;
+  font-weight: 800;
+  font-size: 50px;
+  margin: 5px;
+}
+
+.nav ul{
+  display: flex;
+  align-items: center;
+  
+}
+
+
+/*  banner styles  */
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lines{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*  header styles  */
+
+.header{
+background-image: url('../Assets/Hero-bg.png');
+background-repeat: no-repeat;
+background-size:auto;
+padding: 100px;
+max-width: 1200px;
+
+}
+
+  
+  
+
+
+
+/* shared style */
 .btn-primary{
     background-color: #4E47FF;
     font-weight: lighter;
@@ -15,49 +77,34 @@
     border-radius: 5px;
     padding: 10px 10px;
     border: none;
-
-}
-/* header */
-.header{
-    background-image: url('../Assets/Hero-bg.png');
-    background-size: cover;
-    margin: 120px;
-}
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin: 0px 200px;
 }
 
-.logo {
-    font-size: 20px;
-    font-weight: bold;
-    color: #4E47FF
-}
 
-.text{
-    list-style: none;
-}
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+/* action section styles */
 .action{
     display: flex;
-    background-image: url('../Assets/wc-mini.png');
-    background-size: fill;
-    background-position: right;
+    background-image: url(../Assets/wc-mini.png);
+    background-position:right;
     background-repeat: no-repeat;
-    margin: 120px;
-    height: 100%;
-    border: none;
+    background-size: contain;
+    margin: 40px 100px;
+    max-width: 1200px;
 }
+
+.action-review{
+  justify-content: left;
+  text-align: left;
+  padding: 50px;
+}
+
+
+
+
+/* user section styles */
+
+
 .user{
-    margin: 0px 200px;
+    margin:50px;
 }
 .user-section 
 {
@@ -65,8 +112,8 @@
   border-radius: 10px;
   padding: 30px;
   text-align: center;
-  max-width: 800px;
-  margin: 20px;
+  max-width: 1200px;
+  margin: 40px 100px;
 }
 .user-grid{
     display: flex;
@@ -96,6 +143,102 @@
 .user-label {
   font-size: 1em;
   color: #7c7474;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
+
+
+
+/* review section styles */
+
+.reviews{
+  background-color: #b7d3f1;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 40px 100px;
+}
+
+.review-container{
+  display: flex;
+  gap: 30px;
+}
+
+
+.say{
+
+  text-align: center;
+}
+
+.review{
+  background-color: white;
+  box-shadow: 0px 5px 50px 0px rgb(124, 119, 119);
+  padding: 20px;
+}
+
+.reviewdescription{
+  padding: 15px;
+}
+
+
+/* contact section styles */
+.contacts{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+    max-width: 1200px;
+  
+}
+
+section input[type="text"], section input[type="email"], section textarea
+{
+  height:10px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 50%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: black;
+
+}
+
+.contact-title{
+  text-align: left;
+}
+
+
+/* footer styles */
+
+
+.footer{
+  background-color: #b7d3f1;
+  border: 10px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 40px 100px;
+}
+
+.nav-title-footer{
+  color: #4E47FF;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+
+.footer-content{
+  font-weight: 100;
+  text-align: center;
+}
+
+div ul li {
+  list-style: none;
+}
+
+div ul{
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-around;
+}
